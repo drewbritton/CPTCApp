@@ -128,6 +128,44 @@
     <ImageAsset Include="Resources\Images.xcassets\icon_info.imageset\icon_info%401x.png" />
     <ImageAsset Include="Resources\Images.xcassets\icon_info.imageset\icon_info%402x.png" />
     <ImageAsset Include="Resources\Images.xcassets\icon_info.imageset\icon_info%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_map.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_events.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_email.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_canvas.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_settings.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_programs.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\cptcmountain.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\cptc_canvas.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\simon.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\simon_full.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\cptc_canvas.imageset\icon_canvas%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\cptc_canvas.imageset\icon_canvas%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\cptc_canvas.imageset\icon_canvas%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\cptcmountain.imageset\cptcmountain%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\cptcmountain.imageset\cptcmountain%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\cptcmountain.imageset\cptcmountain%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_canvas.imageset\canvas_icon%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_canvas.imageset\canvas_icon%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_canvas.imageset\canvas_icon%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_email.imageset\icon_email%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_email.imageset\icon_email%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_email.imageset\icon_email%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_events.imageset\icon_events%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_events.imageset\icon_events%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_events.imageset\icon_events%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_map.imageset\icon_map%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_map.imageset\icon_map%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_map.imageset\icon_map%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_programs.imageset\icon_programs%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_programs.imageset\icon_programs%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_programs.imageset\icon_programs%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_settings.imageset\icon_settings%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_settings.imageset\icon_settings%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\icon_settings.imageset\icon_settings%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\simon.imageset\simon%401x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\simon.imageset\simon%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\simon.imageset\simon%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\simon_full.imageset\simonfull.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="Resources\ITunesArtwork" />
@@ -180,89 +218,17 @@
   <ItemGroup>
     <BundleResource Include="icon_info.png" />
   </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\canvas_icon%401x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\canvas_icon%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\canvas_icon%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\cptcmountain%401x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\cptcmountain%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\cptcmountain%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_email%401x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_email%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_email%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_events%401x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_events%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_events%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_info%401x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_info%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_info%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_map%401x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_map%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_map%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_programs%401x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_programs%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_programs%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_settings%401x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_settings%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_settings%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\simon%401x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\simon%402x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\simon%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\simonfull.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\Images.xcassets\icon_map.imageset\" />
+    <Folder Include="Resources\Images.xcassets\icon_events.imageset\" />
+    <Folder Include="Resources\Images.xcassets\icon_email.imageset\" />
+    <Folder Include="Resources\Images.xcassets\icon_canvas.imageset\" />
+    <Folder Include="Resources\Images.xcassets\icon_settings.imageset\" />
+    <Folder Include="Resources\Images.xcassets\icon_programs.imageset\" />
+    <Folder Include="Resources\Images.xcassets\cptcmountain.imageset\" />
+    <Folder Include="Resources\Images.xcassets\cptc_canvas.imageset\" />
+    <Folder Include="Resources\Images.xcassets\simon.imageset\" />
+    <Folder Include="Resources\Images.xcassets\simon_full.imageset\" />
+  </ItemGroup>
 </Project>

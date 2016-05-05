@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedWhite" white="0.333333333333333" alpha="1"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3791" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonInfo" misplaced="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3791" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonInfo">
                                 <rect key="frame" x="48" y="103" width="90" height="90"/>
-                                <state key="normal" image="icon_info.png">
+                                <state key="normal" image="icon_info">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <accessibility key="accessibilityConfiguration">
@@ -28,10 +28,14 @@
                                 <connections>
                                     <segue id="3889" destination="3821" kind="show"/>
                                 </connections>
+                                <constraints>
+                                    <constraint id="4539" firstAttribute="width" constant="90"/>
+                                    <constraint id="4540" firstAttribute="height" constant="90"/>
+                                </constraints>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3792" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonMap" misplaced="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3792" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonMap">
                                 <rect key="frame" x="255" y="103" width="90" height="90"/>
-                                <state key="normal" image="icon_map.png">
+                                <state key="normal" image="icon_map">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <accessibility key="accessibilityConfiguration">
@@ -40,10 +44,14 @@
                                 <connections>
                                     <segue id="4014" destination="3944" kind="show"/>
                                 </connections>
+                                <constraints>
+                                    <constraint id="4543" firstAttribute="width" constant="90"/>
+                                    <constraint id="4544" firstAttribute="height" constant="90"/>
+                                </constraints>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3793" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonEvents" misplaced="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3793" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonEvents">
                                 <rect key="frame" x="450" y="103" width="90" height="90"/>
-                                <state key="normal" image="icon_events.png">
+                                <state key="normal" image="icon_events">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <accessibility key="accessibilityConfiguration">
@@ -52,10 +60,14 @@
                                 <connections>
                                     <segue id="4099" destination="4017" kind="show"/>
                                 </connections>
+                                <constraints>
+                                    <constraint id="4547" firstAttribute="width" constant="90"/>
+                                    <constraint id="4548" firstAttribute="height" constant="90"/>
+                                </constraints>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3794" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonEmail" misplaced="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3794" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonEmail">
                                 <rect key="frame" x="48" y="255" width="90" height="90"/>
-                                <state key="normal" image="icon_email.png">
+                                <state key="normal" image="icon_email">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <accessibility key="accessibilityConfiguration">
@@ -64,10 +76,14 @@
                                 <connections>
                                     <segue id="4174" destination="4104" kind="show"/>
                                 </connections>
+                                <constraints>
+                                    <constraint id="4551" firstAttribute="width" constant="90"/>
+                                    <constraint id="4552" firstAttribute="height" constant="90"/>
+                                </constraints>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3795" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonCanvas" misplaced="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3795" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="ButtonCanvas">
                                 <rect key="frame" x="255" y="255" width="90" height="90"/>
-                                <state key="normal" image="canvas_icon.png">
+                                <state key="normal" image="icon_canvas">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <accessibility key="accessibilityConfiguration">
@@ -76,10 +92,14 @@
                                 <connections>
                                     <segue id="4417" destination="4387" kind="show"/>
                                 </connections>
+                                <constraints>
+                                    <constraint id="4555" firstAttribute="width" constant="90"/>
+                                    <constraint id="4556" firstAttribute="height" constant="90"/>
+                                </constraints>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3796" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3796" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="450" y="255" width="90" height="90"/>
-                                <state key="normal" image="icon_settings.png">
+                                <state key="normal" image="icon_settings">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <accessibility key="accessibilityConfiguration">
@@ -88,6 +108,10 @@
                                 <connections>
                                     <segue id="4501" destination="4427" kind="show"/>
                                 </connections>
+                                <constraints>
+                                    <constraint id="4559" firstAttribute="width" constant="90"/>
+                                    <constraint id="4560" firstAttribute="height" constant="90"/>
+                                </constraints>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="3797" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" restorationIdentifier="TableViewEvents">
                                 <rect key="frame" x="0.0" y="400" width="600" height="200"/>
@@ -126,66 +150,101 @@
                                     </tableViewSection>
                                 </sections>
                             </tableView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="3897" translatesAutoresizingMaskIntoConstraints="NO" text="Information" restorationIdentifier="LabelInfo" misplaced="YES">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="3897" translatesAutoresizingMaskIntoConstraints="NO" text="Information" restorationIdentifier="LabelInfo">
                                 <rect key="frame" x="59" y="201" width="68" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="4563" firstAttribute="width" constant="68"/>
+                                    <constraint id="4564" firstAttribute="height" constant="21"/>
+                                </constraints>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Map" lineBreakMode="tailTruncation" minimumFontSize="10" id="3898" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelMap" misplaced="YES">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Map" lineBreakMode="tailTruncation" minimumFontSize="10" id="3898" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelMap">
                                 <rect key="frame" x="286" y="201" width="29" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="4567" firstAttribute="width" constant="29"/>
+                                    <constraint id="4568" firstAttribute="height" constant="21"/>
+                                </constraints>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Events" lineBreakMode="tailTruncation" minimumFontSize="10" id="3899" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelEvents" misplaced="YES">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Events" lineBreakMode="tailTruncation" minimumFontSize="10" id="3899" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelEvents">
                                 <rect key="frame" x="476" y="201" width="42" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="4571" firstAttribute="width" constant="42"/>
+                                    <constraint id="4572" firstAttribute="height" constant="21"/>
+                                </constraints>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Email" lineBreakMode="tailTruncation" minimumFontSize="10" id="3900" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelEmail" misplaced="YES">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Email" lineBreakMode="tailTruncation" minimumFontSize="10" id="3900" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelEmail">
                                 <rect key="frame" x="77" y="353" width="32" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="4575" firstAttribute="width" constant="32"/>
+                                    <constraint id="4576" firstAttribute="height" constant="21"/>
+                                </constraints>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Canvas" lineBreakMode="tailTruncation" minimumFontSize="10" id="3901" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelCanvas" misplaced="YES">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Canvas" lineBreakMode="tailTruncation" minimumFontSize="10" id="3901" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelCanvas">
                                 <rect key="frame" x="280" y="353" width="42" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="4579" firstAttribute="width" constant="42"/>
+                                    <constraint id="4580" firstAttribute="height" constant="21"/>
+                                </constraints>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" lineBreakMode="tailTruncation" minimumFontSize="10" id="3902" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelSettings" misplaced="YES">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" lineBreakMode="tailTruncation" minimumFontSize="10" id="3902" translatesAutoresizingMaskIntoConstraints="NO" restorationIdentifier="LabelSettings">
                                 <rect key="frame" x="472" y="353" width="52" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                                 <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="4583" firstAttribute="width" constant="52"/>
+                                    <constraint id="4584" firstAttribute="height" constant="21"/>
+                                </constraints>
                             </label>
                         </subviews>
                         <accessibility key="accessibilityConfiguration">
                             <accessibilityTraits key="traits" none="YES" header="YES"/>
                         </accessibility>
                         <constraints>
-                            <constraint id="3905" firstItem="3792" firstAttribute="centerY" secondItem="3791" secondAttribute="centerY"/>
-                            <constraint id="3906" firstItem="3793" firstAttribute="centerY" secondItem="3791" secondAttribute="centerY"/>
-                            <constraint id="3907" firstItem="3792" firstAttribute="centerY" secondItem="3791" secondAttribute="centerY"/>
-                            <constraint id="3908" firstItem="3793" firstAttribute="centerY" secondItem="3791" secondAttribute="centerY"/>
-                            <constraint id="3909" firstItem="3795" firstAttribute="centerY" secondItem="3794" secondAttribute="centerY"/>
-                            <constraint id="3910" firstItem="3796" firstAttribute="centerY" secondItem="3794" secondAttribute="centerY"/>
-                            <constraint id="3911" firstItem="3901" firstAttribute="centerY" secondItem="3900" secondAttribute="centerY"/>
-                            <constraint id="3912" firstItem="3902" firstAttribute="centerY" secondItem="3900" secondAttribute="centerY"/>
-                            <constraint id="3913" firstItem="3898" firstAttribute="centerY" secondItem="3897" secondAttribute="centerY"/>
-                            <constraint id="3914" firstItem="3899" firstAttribute="centerY" secondItem="3897" secondAttribute="centerY"/>
-                            <constraint id="3915" firstItem="3794" firstAttribute="centerX" secondItem="3791" secondAttribute="centerX"/>
-                            <constraint id="3916" firstItem="3795" firstAttribute="centerX" secondItem="3792" secondAttribute="centerX"/>
-                            <constraint id="3917" firstItem="3796" firstAttribute="centerX" secondItem="3793" secondAttribute="centerX"/>
+                            <constraint id="4537" firstItem="3791" firstAttribute="leading" secondItem="2655" secondAttribute="leading" constant="48"/>
+                            <constraint id="4538" firstItem="3791" firstAttribute="top" secondItem="2655" secondAttribute="top" constant="103"/>
+                            <constraint id="4541" firstItem="2655" firstAttribute="trailing" secondItem="3792" secondAttribute="trailing" constant="255"/>
+                            <constraint id="4542" firstItem="3792" firstAttribute="top" secondItem="2655" secondAttribute="top" constant="103"/>
+                            <constraint id="4545" firstItem="2655" firstAttribute="trailing" secondItem="3793" secondAttribute="trailing" constant="60"/>
+                            <constraint id="4546" firstItem="3793" firstAttribute="top" secondItem="2655" secondAttribute="top" constant="103"/>
+                            <constraint id="4549" firstItem="3794" firstAttribute="leading" secondItem="2655" secondAttribute="leading" constant="48"/>
+                            <constraint id="4550" firstItem="2655" firstAttribute="bottom" secondItem="3794" secondAttribute="bottom" constant="255"/>
+                            <constraint id="4553" firstItem="2655" firstAttribute="trailing" secondItem="3795" secondAttribute="trailing" constant="255"/>
+                            <constraint id="4554" firstItem="2655" firstAttribute="bottom" secondItem="3795" secondAttribute="bottom" constant="255"/>
+                            <constraint id="4557" firstItem="2655" firstAttribute="trailing" secondItem="3796" secondAttribute="trailing" constant="60"/>
+                            <constraint id="4558" firstItem="2655" firstAttribute="bottom" secondItem="3796" secondAttribute="bottom" constant="255"/>
+                            <constraint id="4561" firstItem="3897" firstAttribute="leading" secondItem="2655" secondAttribute="leading" constant="59"/>
+                            <constraint id="4562" firstItem="3897" firstAttribute="top" secondItem="2655" secondAttribute="top" constant="201"/>
+                            <constraint id="4565" firstItem="2655" firstAttribute="trailing" secondItem="3898" secondAttribute="trailing" constant="285"/>
+                            <constraint id="4566" firstItem="3898" firstAttribute="top" secondItem="2655" secondAttribute="top" constant="201"/>
+                            <constraint id="4569" firstItem="2655" firstAttribute="trailing" secondItem="3899" secondAttribute="trailing" constant="82"/>
+                            <constraint id="4570" firstItem="3899" firstAttribute="top" secondItem="2655" secondAttribute="top" constant="201"/>
+                            <constraint id="4573" firstItem="3900" firstAttribute="leading" secondItem="2655" secondAttribute="leading" constant="77"/>
+                            <constraint id="4574" firstItem="2655" firstAttribute="bottom" secondItem="3900" secondAttribute="bottom" constant="226"/>
+                            <constraint id="4577" firstItem="2655" firstAttribute="trailing" secondItem="3901" secondAttribute="trailing" constant="278"/>
+                            <constraint id="4578" firstItem="2655" firstAttribute="bottom" secondItem="3901" secondAttribute="bottom" constant="226"/>
+                            <constraint id="4581" firstItem="2655" firstAttribute="trailing" secondItem="3902" secondAttribute="trailing" constant="76"/>
+                            <constraint id="4582" firstItem="2655" firstAttribute="bottom" secondItem="3902" secondAttribute="bottom" constant="226"/>
                         </constraints>
                     </view>
                     <navigationItem title="MyCPTC" id="3636" key="navigationItem"/>
@@ -694,5 +753,25 @@
         <image name="simon.png" width="178" height="168.333328"/>
         <image name="simonfull.png" width="400" height="690"/>
         <image name="icon_info" width="120" height="120"/>
+        <image name="Image" width="120" height="120"/>
+        <image name="Image-1" width="120" height="120"/>
+        <image name="Image-2" width="120" height="120"/>
+        <image name="Image-3" width="100" height="100"/>
+        <image name="Image-4" width="120" height="120"/>
+        <image name="Image-5" width="120" height="120"/>
+        <image name="Image-6" width="519.6667" height="222.333328"/>
+        <image name="Image-7" width="120" height="120"/>
+        <image name="Image-8" width="178" height="168.333328"/>
+        <image name="Image-9" width="400" height="690"/>
+        <image name="cptc_canvas" width="120" height="120"/>
+        <image name="cptcmountain" width="519.6667" height="222.333328"/>
+        <image name="icon_canvas" width="100" height="100"/>
+        <image name="icon_email" width="120" height="120"/>
+        <image name="icon_events" width="120" height="120"/>
+        <image name="icon_map" width="120" height="120"/>
+        <image name="icon_programs" width="120" height="120"/>
+        <image name="icon_settings" width="120" height="120"/>
+        <image name="simon" width="178" height="168.333328"/>
+        <image name="simon_full" width="400" height="690"/>
     </resources>
 </document>
