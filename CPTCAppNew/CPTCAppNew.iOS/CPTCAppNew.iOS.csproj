@@ -182,10 +182,6 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="NewViewController.cs" />
-    <Compile Include="NewViewController.designer.cs">
-      <DependentUpon>NewViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="InfoTableViewController.cs" />
     <Compile Include="InfoTableViewController.designer.cs">
       <DependentUpon>InfoTableViewController.cs</DependentUpon>
@@ -213,6 +209,10 @@
     <Compile Include="SettingsViewController.cs" />
     <Compile Include="SettingsViewController.designer.cs">
       <DependentUpon>SettingsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainViewController_.cs" />
+    <Compile Include="MainViewController_.designer.cs">
+      <DependentUpon>MainViewController_.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
